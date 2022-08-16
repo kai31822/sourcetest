@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='kai'>
+    <meta name='keywords' content='HTML,CSS,JavaScript'>
+    <meta name='author' content='kai'>
+    <link rel="stylesheet" href="./css/account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>account</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <header id="top">
+        <div class="header">
+            <!-- top -->
+            <nav class="navigation">
+                <ul class="menu-info">
+                    <li class=""><a href=""><i class="fa-solid fa-phone"></i>+886-987654321</a></li>
+                    <li class=""><a href=""><i class="fa-solid fa-envelope"></i>yoursite@gmail.com</a></li>
+                    <li><a href=""><i class="fa-solid fa-location-dot"></i>addr</a></li>
+                </ul>
+                <ul class="menu-info">
+                    <li><a href=""><i class="fa-solid fa-dollar-sign"></i>USD</a></li>
+                    <li><a href="./pages/account.html"><i class="fa-solid fa-user"></i>Sign-In</a></li>
+                    <!-- text can change into user account  -->
+                </ul>
+            </nav>
+        </div>
+        <div class="header2">
+            <!-- bottom -->
+            <nav class="navigation">
+                <div class="nav-logo"><a href="../index.html">logo</a></div>
+                <div class="nav-search">
+                    <form action="">
+                        <select name="" id="Categories">
+                            <option value="0">All Categories</option>
+                            <option value="1">Categories 01</option>
+                            <option value="2">Categories 02</option>
+                            <option value="3">Categories 03</option>
+                        </select>
+                        <input type="search" placeholder="Search here">
+                        <button class="search-btn">Search</button>
+                    </form>
+                </div>
+                <ul class="menu-info-bot">
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Wishlist</span>
+                            <div class="qty">
+                                0
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>Cart</span>
+                            <div class="qty">
+                                0
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- nav END -->
+    <!-- categories -->
+    <section class="no1">
+        <nav class="container">
+            <ul class="categories">
+                <li><a href="">Home</a></li>
+                <li><a href="">Hot Deals</a></li>
+                <li><a href="">Categories </a></li>
+                <li><a href="">Laptops</a></li>
+                <li><a href="">Smartphones</a></li>
+                <li><a href="">Tablet</a></li>
+                <li><a href="">Accessories</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!--  categories END -->
+    <!-- login/setup -->
+    <!-- <h1>register</h1>
+    <form action="/register" method="POST">
+		<fieldset>
+			<label>Username</label>
+			<input type ="text" id = 'username' name="username" placeholder="maverick" required>
+			<br><br>
+
+			<label>Email ID</label>
+			<input type ="email" id = 'email' name="email" placeholder="abc@example.com" required>
+			<br><br>
+
+			<label>Password</label>
+			<input type="password" id = "password" name="password" required>
+			<br><br>
+
+			<button type ="reset">Reset</button>
+			<button type ="submit">Submit</button>
+		</fieldset>
+	</form> -->
+    <div class="fullpage">
+        <div class="container">
+            <form action="/login" method="POST" class="">
+                <h1>Sign-In</h1>
+                <div>
+                    <label>Email ID</label>
+                    <input type="email" id='email' name="email" placeholder="abc@example.com" required>
+                    <br><br>
+
+                    <label>Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <br><br>
+
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+
+        <div class="copyright-bg">
+            <div class="container">
+                <div class="item">
+                    <p>&copy;2022 kai.com Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer END -->
+</body>
+
+</html>

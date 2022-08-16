@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='kai'>
+    <meta name='keywords' content='HTML,CSS,JavaScript'>
+    <meta name='author' content='kai'>
+    <link rel="stylesheet" href="./css/categories.css">
+    <title>categories</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <header id="top">
+        <div class="header">
+            <!-- top -->
+            <nav class="navigation">
+                <ul class="menu-info">
+                    <li class=""><a href="javascript:;"><i class="fa-solid fa-phone"></i>+886-987654321</a></li>
+                    <li class=""><a href="javascript:;"><i class="fa-solid fa-envelope"></i>yoursite@gmail.com</a></li>
+                    <li><a href="javascript:;"><i class="fa-solid fa-location-dot"></i>addr</a></li>
+                </ul>
+                <ul class="menu-info">
+                    <li><a href="javascript:;"><i class="fa-solid fa-dollar-sign"></i>USD</a></li>
+                    <li><a href="./pages/account.html"><i class="fa-solid fa-user"></i>Sign-In</a></li>
+                    <!-- text can change into user account  -->
+                </ul>
+            </nav>
+        </div>
+        <div class="header2">
+            <!-- bottom -->
+            <nav class="navigation">
+                <div class="nav-logo"><a href="../index.html">logo</a></div>
+                <div class="nav-search">
+                    <form action="">
+                        <select name="" id="Categories">
+                            <option value="0">All Categories</option>
+                            <option value="1">Laptops</option>
+                            <option value="2">Smartphones</option>
+                            <option value="3">Tablet</option>
+                            <option value="4">Accessories</option>
+                        </select>
+                        <input type="search" placeholder="Search here">
+                        <button class="search-btn">Search</button>
+                    </form>
+                </div>
+                <ul class="menu-info-bot">
+                    <li>
+                        <a href="./Wishlist.html">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Wishlist</span>
+                            <div class="qty">
+                                0
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./Cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>Cart</span>
+                            <div class="qty">
+                                0
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- nav END -->
+    <!-- categories -->
+    <section class="no1">
+        <nav class="container">
+            <ul class="categories">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./HotDeal.html">Hot Deals</a></li>
+                <li><a href="./categories.html" class="category_active">ALL</a></li>
+                <li><a href="./laptop.html">Laptops</a></li>
+                <li><a href="./Smartphone.html">Smartphones</a></li>
+                <li><a href="./Tablet.html">Tablet</a></li>
+                <li><a href="./Accessories.html">Accessories</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!--  categories END -->
+    <!-- categories laptops...-->
+
+    <div class="producesall" id="pageMain">
+    </div>
+    <div id="pageBox">
+        <span id="prev">上一頁</span>
+        <ul id="pageNav"></ul>
+        <span id="next">下一頁</span>
+    </div>
+    <!-- categories End-->
+    <!-- footer -->
+    <footer>
+        <a href="#top" class="btt">Back to top</a>
+        <div class="copyright-bg">
+            <div class="container">
+                <div class="item">
+                    <a href="">Conditions of Use</a>
+                    <a href="">Privacy Notice</a>
+                    <a href="">Interest-Based Ads</a>
+                    <p>&copy;2022 kai.com Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- overlay -->
+    <div class="prodoverlay">
+        <div class="prodoverlay-container ">
+            <div class="prod-img img-zoom-container">
+                <div class="img-zoom-lens" ></div>
+                <img src="" alt="" id="img">
+                <div id="imgresult" class="img-zoom-result"></div>
+            </div>
+            <div class="prodoverlay-info">
+                <h1 id="name">name:</h1>
+                <p id="info">info:</p>
+                <p id="price">price:</p>
+                <span id="add"></span>
+                <button>Add Wsishlist</button>
+            </div>
+        </div>
+    </div>
+    <!-- overlay END-->
+    <!-- footer END -->
+    <script src="../data/categories.json"></script>
+    <script src="./js/usejson.js"> </script>
+    <!-- <script src="./pagechange.js"></script> -->
+<script>
+
+</script>
+</body>
+
+</html>
